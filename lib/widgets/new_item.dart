@@ -29,7 +29,7 @@ class _NewItemState extends State<NewItem> {
       });
 
       final url = Uri.https(
-        'flutter-meals-app-d5af0-default-rtdb.firebaseio.com',
+        '',
         'shopping-list.json',
       );
 

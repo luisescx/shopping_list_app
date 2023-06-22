@@ -26,7 +26,7 @@ class _GroceryListState extends State<GroceryList> {
 
   void _loadItems() async {
     final url = Uri.https(
-      'flutter-meals-app-d5af0-default-rtdb.firebaseio.com',
+      '',
       'shopping-list.json',
     );
 
@@ -95,7 +95,7 @@ class _GroceryListState extends State<GroceryList> {
 
   void _removeItem(GroceryItem item) async {
     final url = Uri.https(
-      'flutter-meals-app-d5af0-default-rtdb.firebaseio.com',
+      '',
       'shopping-list/${item.id}.json',
     );
 
